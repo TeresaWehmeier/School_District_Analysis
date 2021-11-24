@@ -20,5 +20,12 @@ Resources include
 - Pandas libraries
 
 ## Results
+Before digging into the high level reports, it is important to remove test score results to address the academic dishonesty concerns. This process is performed using the .loc method to identify the specific high school and grade levels in question. Both the math and reading scores were set to NaN using this code:
+ 
+ student_data_df.loc[(student_data_df['school_name']=='Thomas High School') & (student_data_df['grade']=='9th'),['reading_score']]= np.nan
 
+To verifiy the scores were removed, a count of "isnull()" results was peformed with the results shown here:
+
+  <img src = "Images/isnull_scores_new.png" width="40%" height="20%">
+   
 
