@@ -15,7 +15,7 @@ During development of the analysis, the district manager was informed by the sch
 
 ## Resources
 Resources include
-- Clean data files for analysis located <a href="Resources/clean_students_complete.csv">in the resources folder.</a>
+- Clean data CSV files for analysis located <a href="https://github.com/TeresaWehmeier/School_District_Analysis/tree/main/Resources" target="_blank">in the resources folder.</a>
 - Jupyter notebook
 - Pandas libraries
 
