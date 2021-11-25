@@ -1,7 +1,7 @@
 # School District Analysis
 
 ## Overview of the School District Analysis Project
-The purpose of the School District Analysis project is to develop student and school performance analysis on reading and math scores, and to evaluate performance based on school size and budget level by high school and per student. Deliverables for the project include:
+The purpose of the School District Analysis project is to develop student and school performance analyses on reading and math scores, and to evaluate performance based on school size and budget level by high school and per student. Deliverables for the project include:
 - High level snapshot of the district's key metrics
 - Overview of the key metrics for each school
 - Tables include
@@ -22,11 +22,15 @@ Resources include
 ## Process
 1. Before digging into the high level reports, it is important to remove test score results to address the academic dishonesty concerns. This process is performed using the .loc method, and identifies the specific high school and grade levels in question. Both the math and reading scores are set to NaN using this code:
  - student_data_df.loc[(student_data_df['school_name']=='Thomas High School') & (student_data_df['grade']=='9th'),['reading_score']]= np.nan
- - To verifiy the scores are removed, a sum of "isnull()" results is peformed with the results shown here:
+ - To verifiy the scores are removed, a sum of "isnull()" is peformed with the results shown here:
 
     <img src = "Images/isnull_scores_new.png" width="30%" height="10%">
     
- 2. The second step is to determine the average scores for both math and reading by high school.  
+ 2. The second step is to re-establish the average scores for both math and reading by high school, and recompile the summary by high school report. Overall passing rates for Thomas High School declined from 90.9% to 90.6%, or less than 1/2 a percent, as a result of the modifications made to the school test results. Average math scores for the same high school declined from 83.4 to 83.35, or less than .05% and average reading scores _increased_ from 83.8 to 83.9. Based on the high school summary report, overall percentage passing, and average math and reading scores had minimal impact on the new analysis.
+
+  - <img src = "Images/summary_by_school_new.png" width="50%" height="40%">
+
+
 
 
    
