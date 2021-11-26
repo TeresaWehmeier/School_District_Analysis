@@ -31,9 +31,9 @@ Before digging into the high level reports, it is important to remove test score
 
     <img src = "Images/isnull_scores_new.png" width="30%" height="10%">
     
-The next step is to re-establish the average scores for both math and reading by high school, and recompile the summary by high school report. Overall passing rates for Thomas High School declined from 90.9% to 90.6%, or less than 1/2 a percent, as a result of the modifications made to the school test results. Average math scores for the same high school declined from 83.4 to 83.35, or less than .05 of a point, while average reading scores _increased_ from 83.8 to 83.9.
+The next step is to re-establish the average scores for both math and reading by high school, and recompile the summary by high school report. Overall passing rates for Thomas High School decline from 90.9% to 90.6%, or less than half a percent, as a result of the modifications made to the school test results. Average math scores for the same high school decline from 83.4 to 83.35, or less than .05 of a point, while average reading scores _increase_ from 83.8 to 83.9.
 
-Based on the high school summary report, overall percentage passing rates and average math and reading scores had minimal impacted to Thomas High School's overall results. The revised high school summary report is pictured here:
+Based on the high school summary report, overall percentage passing rates and average math and reading scores, revisions to Thomas High School show a minimal impact to their overall results. The revised high school summary report is pictured here:
 
 <img src = "Images/summary_by_school_new.png" width="70%" height="50%">
 
