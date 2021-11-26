@@ -19,19 +19,20 @@ Resources include
 - Jupyter notebook
 - Pandas libraries
 
-## Process
-1. Before digging into the high level reports, it is important to remove test score results to address the academic dishonesty concerns. This process is performed using the .loc method, and identifies the specific high school and grade levels in question. Both the math and reading scores are set to NaN using this code:
- - student_data_df.loc[(student_data_df['school_name']=='Thomas High School') & (student_data_df['grade']=='9th'),['reading_score']]= np.nan
- - To verifiy the scores are removed, a sum of "isnull()" is peformed with the results shown here:
+## Results
+
+Before digging into the high level reports, it is important to remove test score results to address the academic dishonesty concerns. This process is performed using the .loc method, and identifies the specific high school and grade levels in question. Both the math and reading scores are set to NaN using this code:
+ - ```student_data_df.loc[(student_data_df['school_name']=='Thomas High School')
+ - ```& (student_data_df['grade']=='9th'),['subject_score']]= np.nan
+ - To verifiy the scores are removed, a sum of "isnull()" is performed with the results shown here:
 
     <img src = "Images/isnull_scores_new.png" width="30%" height="10%">
     
- 2. The second step is to re-establish the average scores for both math and reading by high school, and recompile the summary by high school report. Overall passing rates for Thomas High School declined from 90.9% to 90.6%, or less than 1/2 a percent, as a result of the modifications made to the school test results. Average math scores for the same high school declined from 83.4 to 83.35, or less than .05% and average reading scores _increased_ from 83.8 to 83.9. Based on the high school summary report, overall percentage passing, and average math and reading scores had minimal impact on the new analysis.
+The next step is to re-establish the average scores for both math and reading by high school, and recompile the summary by high school report. Overall passing rates for Thomas High School declined from 90.9% to 90.6%, or less than 1/2 a percent, as a result of the modifications made to the school test results. Average math scores for the same high school declined from 83.4 to 83.35, or less than .05% and average reading scores _increased_ from 83.8 to 83.9.
 
-  - <img src = "Images/summary_by_school_new.png" width="70%" height="50%">
+Based on the high school summary report, overall percentage passing rates and average math and reading scores were minimally impacted by the changes. The revised high school summary report is pictured here:
 
+<img src = "Images/summary_by_school_new.png" width="70%" height="50%">
 
-
-
-   
+  
 
