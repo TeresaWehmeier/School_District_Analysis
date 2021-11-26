@@ -57,4 +57,12 @@ The top five and bottom five performing schools were identified in the original 
 <img src = "Images/math_results_groupby_hs_grade_level.png" width="60%" height="40%">
 
 ### High Level Summaries
+#### Spending Ranges Per Student
+Spending ranges were developed to determine math, reading and overall performance based on budget per student. In the initial report, the spending per student bins are defined as <$585, $585-629, $630-644, and $645-675. These results are based on descriptive statistics, with some minor adjustment to more evenly balance the high school distribution in the bins. Once the changes are made, and the spending ranges per student are recompiled, there is no difference in performance based on spending per student. Thomas High School falls into the $630-644 spending bin, where none of the metrics are impacted by the data changes. 
+
+1. Spending Ranges Per Student Report - Recompiled (no change)
+
+<img src = "Images/summary_spending_new.png" width="40%" height="%20%>
+                                                                 
+                                                                 
 
