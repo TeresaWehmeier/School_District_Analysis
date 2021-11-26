@@ -72,7 +72,7 @@ School size is used to determine performance impact based on the size of the sch
 <img src = "Images/summary_school_size_new.png" width="60%" height="40%">
 
 #### Performance Based on School Type
-There are two types of high schools in the district: charter and district. Anlysis comparing performance between the two is compiled to show any variance. There is no change in results after recompiling the report. Thomas High School is a charter school. Average math, reading and percentage of overall passing results do not change after recompiling. New report is provided.
+There are two types of high schools in the district: charter and district. Analysis comparing performance between the two is compiled to show any variance. There is no change in results after recompiling the report. Thomas High School is a charter school. Average math, reading and percentage of overall passing results do not change after recompiling. New report is provided.
 
 1. Performance based on type of school - Recompiled (no change)
 
@@ -90,7 +90,9 @@ The district summary includes performance metrics for all fifteen high schools i
 <img src = "Images/district_summary_new.png" width="60%" height="40%">
 
 ## Summary
+After making changes to the Thomas High School ninth grade reading and math scores, all key metrics have been recompiled. Although there are some small variances in the percentage passing math, reading and the overall percent passing results, these variances are less than .50%. The standard format for percentage results is typically set at zero decimal places, and when that format is followed, there is no visible difference. Overall, the changes to the high school scores does not appear to be statistially signifcant.
 
+Spending per student analysis suggest spending does not have an impact on performance. In fact, the highest performing schools have a per student spending budget of less than $585, which is well below the average of $628 budget per student. Performance based on school size does appear to have an impact; students in small to medium schools have an overall passing rate of 90% and 91% respectively, compared to only 58% overall passing in large schools. These results suggest smaller class sizes allow more individualized interaction with their instructors. Finally, school type appears to also have an impact on performance. Of the fifteen high schools in the analysis, eight are charter schools. However, only one of the charter schools falls into the large school size, so school size may also impact charter performance results. 
 
                                                                  
 
