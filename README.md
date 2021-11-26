@@ -54,7 +54,7 @@ The top five and bottom five performing schools were identified in the original 
 
 4. Average math and reading scores by grade level and high school were also compiled, with the only change in the new analysis that of the 9th grade results for Thomas High School set to NaN. Both math and reading were compiled, with only math shown here.
 
-<img src = "Images/math_results_groupby_hs_grade_level.png" width="60%" height="40%">
+<img src = "Images/math_results_groupby_hs_grade_level.png" width="40%" height="20%">
 
 ### High Level Summaries
 #### Performance Based on Budget Per Student
@@ -62,32 +62,32 @@ Spending ranges were developed to determine math, reading and overall performanc
 
 1. Spending Ranges Per Student Report - Recompiled (no change)
 
-<img src = "Images/summary_spending_new.png" width="40%" height="20%">
+<img src = "Images/summary_spending_new.png" width="60%" height="40%">
 
 #### Performance Based on School Size
 School size is used to determine performance impact based on the size of the school. The range was set at Small (<1000), Medium (1000-2000) and Large (2000-5000). There is no impact on the overall report by school size after data changes are applied. Below is the revised report.
 
 1. Performance based on School Size Report - Recompiled (no change)
 
-<img src = "Images/summary_school_size_new.png" width="40%" height="20%">
+<img src = "Images/summary_school_size_new.png" width="60%" height="40%">
 
 #### Performance Based on School Type
 There are two types of high schools in the district: charter and district. Anlysis comparing performance between the two is compiled to show any variance. There is no change in results after recompiling the report. Thomas High School is a charter school. Average math, reading and percentage of overall passing results do not change after recompiling. New report is provided.
 
 1. Performance based on type of school - Recompiled (no change)
 
-<img src = "Images/summary_school_type_new.png" width="40%" height="20%">
+<img src = "Images/summary_school_type_new.png" width="60%" height="40%">
 
 #### Overall District Performance
 The district summary includes performance metrics for all fifteen high schools in the district. After recompiling the data there is a variance in performance before and after changes are made to the data. However, these changes are only apparent when the data is analyzed with a decimal in the percentages. When comparing the old report to the new report at a tenth of a percent, there is clear, though nominal, difference in the percent passing math, percent passing reading and the overall percent passing results. Percent passing math declines by .20%, percent passing reading declines by .10% and the overall passing rate declines by .30%. 
 
 1. District summary prior to data changes
 
-<img src = "Images/district_summary_old.png" width="40%" height="20%">
+<img src = "Images/district_summary_old.png" width="60%" height="40%">
 
 2. District summary after data changes
 
-<img src = "Images/district_summary_new.png" width="40%" height="20%">
+<img src = "Images/district_summary_new.png" width="60%" height="40%">
 
 ## Summary
 
