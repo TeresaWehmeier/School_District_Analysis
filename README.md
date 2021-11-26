@@ -15,7 +15,7 @@ During development of the analysis, the district manager was informed by the sch
 
 ## Resources
 Resources include
-- Clean data CSV files for analysis located <a href="https://github.com/TeresaWehmeier/School_District_Analysis/tree/main/Resources" target="_blank">in the resources folder.</a>
+- Clean data CSV files for analysis located <a href="https://github.com/TeresaWehmeier/School_District_Analysis/tree/main/Resources">in the resources folder.</a>
 - Jupyter notebook
 - Pandas libraries
 
@@ -62,7 +62,7 @@ Spending ranges were developed to determine math, reading and overall performanc
 
 1. Spending Ranges Per Student Report - Recompiled (no change)
 
-<img src = "Images/summary_spending_new.png" width="40%" height="20$">
+<img src = "Images/summary_spending_new.png" width="40%" height="20%">
 
 #### Performance Based on School Size
 School size is used to determine performance impact based on the size of the school. The range was set at Small (<1000), Medium (1000-2000) and Large (2000-5000). There is no impact on the overall report by school size after data changes are applied. Below is the revised report.
