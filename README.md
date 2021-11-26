@@ -20,7 +20,7 @@ Resources include
 - Pandas libraries
 
 ## Results
-
+### Impact on Thomas High School
 Before digging into the high level reports, it is important to remove test score results to address the academic dishonesty concerns. This process is performed using the .loc method, and identifies the specific high school and grade levels in question. Both the math and reading scores are set to NaN using this code:
 
 ```
@@ -31,11 +31,30 @@ Before digging into the high level reports, it is important to remove test score
 
     <img src = "Images/isnull_scores_new.png" width="30%" height="10%">
     
-The next step is to re-establish the average scores for both math and reading by high school, and recompile the summary by high school report. Overall passing rates for Thomas High School declined from 90.9% to 90.6%, or less than 1/2 a percent, as a result of the modifications made to the school test results. Average math scores for the same high school declined from 83.4 to 83.35, or less than .05% and average reading scores _increased_ from 83.8 to 83.9.
+The next step is to re-establish the average scores for both math and reading by high school, and recompile the summary by high school report. Overall passing rates for Thomas High School declined from 90.9% to 90.6%, or less than 1/2 a percent, as a result of the modifications made to the school test results. Average math scores for the same high school declined from 83.4 to 83.35, or less than .05 of a point, while average reading scores _increased_ from 83.8 to 83.9.
 
-Based on the high school summary report, overall percentage passing rates and average math and reading scores were minimally impacted by the changes. The revised high school summary report is pictured here:
+Based on the high school summary report, overall percentage passing rates and average math and reading scores had minimal impacted to Thomas High School's overall results. The revised high school summary report is pictured here:
 
 <img src = "Images/summary_by_school_new.png" width="70%" height="50%">
 
-  
+### Impact on Comparative Results
+The top five and bottom five performing schools were identified in the original analysis, and Thomas High School remains in the top five, even after modifications to the test scores. In fact, the high school's position remained at second position, and has no affect on the other top five performers.
+
+1. Original Top Five Performance Results
+
+  <img src = "Images/top_five_schools_old.png" width="60%" height="40%">
+
+2. Revised top Five Performance Results
+
+  <img src = "Images/top_five_schools.png" width="60%" height="40%">
+
+3. Bottom Five Performance Results (no change after revision)
+
+<img src = "Images/bottom_five_schools.png" width="60%" height="40%">
+
+4. Average math and reading scores by grade level and high school were also compiled, with the only change in the new analysis that of the 9th grade results for Thomas High School set to NaN. Both math and reading were compiled, with only math shown here.
+
+<img src = "Images/math_results_groupby_hs_grade_level.png" width="60%" height="40%">
+
+### High Level Summaries
 
